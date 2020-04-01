@@ -30,7 +30,7 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
              Total amount you can rob = 2 + 9 + 1 = 12.
 ```
 
-#### References
+### References
 
 * [The Change Making Problem - Fewest Coins To Make Change Dynamic Programming by Back To Back SWE](https://youtu.be/jgiZlGzXMBw)
 
@@ -66,7 +66,7 @@ Input:
 Output: 3
 ```
 
-#### References
+### References
 
 * [Depth First & Breadth First Graph Search - DFS & BFS Graph Searching Algorithms by Back To Back SWE](https://youtu.be/TIbUeeksXcI)
 
@@ -86,7 +86,7 @@ Output: 2
 Explanation: the subarray [4,3] has the minimal length under the problem constraint.
 ```
 
-#### References
+### References
 
 * [Window Substring: Utilizing Two Pointers & Tracking Character Mappings With A Hashtable by Back To Back SWE](https://youtu.be/eS6PZLjoaq8)
 
@@ -128,6 +128,6 @@ A solution set is:
 ]
 ```
 
-#### References
+### References
 
 * [The Backtracking Blueprint: The Legendary 3 Keys To Backtracking Algorithms by Back To Back SWE](https://youtu.be/Zq4upTEaQyM)
