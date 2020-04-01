@@ -6,6 +6,8 @@ All the Leetcode problems are selected from [60 LeetCode problems to solve for c
 
 Leetcode problem: [198. House Robber](https://leetcode.com/problems/house-robber/) - Easy
 
+### Problem description
+
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
 Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
@@ -28,9 +30,15 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
              Total amount you can rob = 2 + 9 + 1 = 12.
 ```
 
+#### References
+
+* [The Change Making Problem - Fewest Coins To Make Change Dynamic Programming by Back To Back SWE](https://youtu.be/jgiZlGzXMBw)
+
 ## Day 2 - Graph
 
 Leetcode problem: [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - Medium
+
+### Problem description
 
 Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
@@ -58,9 +66,15 @@ Input:
 Output: 3
 ```
 
+#### References
+
+* [Depth First & Breadth First Graph Search - DFS & BFS Graph Searching Algorithms by Back To Back SWE](https://youtu.be/TIbUeeksXcI)
+
 ## Day 3 - Sliding Window
 
 Leetcode problem: [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) - Medium
+
+### Problem description
 
 Given an array of **n** positive integers and a positive integer **s**, find the minimal length of a **contiguous** subarray of which the sum ≥ **s**. If there isn't one, return 0 instead.
 
@@ -72,9 +86,15 @@ Output: 2
 Explanation: the subarray [4,3] has the minimal length under the problem constraint.
 ```
 
+#### References
+
+* [Window Substring: Utilizing Two Pointers & Tracking Character Mappings With A Hashtable by Back To Back SWE](https://youtu.be/eS6PZLjoaq8)
+
 ## Day 4 - Back tracking
 
 Leetcode problem: [39. Combination Sum](https://leetcode.com/problems/combination-sum/) - Medium
+
+### Problem description
 
 Given a **set** of candidate numbers (`candidates`) (**without duplicates**) and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
 
@@ -107,3 +127,7 @@ A solution set is:
   [3,5]
 ]
 ```
+
+#### References
+
+* [The Backtracking Blueprint: The Legendary 3 Keys To Backtracking Algorithms by Back To Back SWE](https://youtu.be/Zq4upTEaQyM)
