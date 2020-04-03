@@ -13,25 +13,36 @@ class Solution(object):
         if sum(nums) < s:
             return 0
 
-        start, end = 0, 1
+        start, end = 0, 0
         min_subarray = len(nums)
 
-        while start < len(nums) and end <= len(nums):
-            total = sum(nums[start:end])
+        total = nums[start]
+        while start < len(nums) and end < len(nums):
+
             # The sum of subarray has reached target.
             # Narrow the subarray by moving 'start'.
             if total >= s:
-                if end - start < min_subarray:
-                    min_subarray = end - start
+                if end - start + 1 < min_subarray:
+                    min_subarray = end - start + 1
                 if start < end:
+                    total -= nums[start]
                     start += 1
                 else:
                     start += 1
                     end += 1
+                    if end < len(nums):
+                        total = nums[end]
+                    else:
+                        break
             # The sum of subarray hasn't reached target.
             # Expand the subarray by moving 'end'.
             else:
                 end += 1
+                if end < len(nums):
+                    total += nums[end]
+                else:
+                    # reach the last digit.
+                    break
 
         return min_subarray
 
@@ -39,5 +50,5 @@ class Solution(object):
 if __name__ == "__main__":
     runner = Solution()
     s = 100
-    nums = [1, 1]
+    nums = [2, 3, 1, 2, 4, 100]
     print(runner.minSubArrayLen(s, nums))
