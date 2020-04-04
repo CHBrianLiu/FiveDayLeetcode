@@ -22,6 +22,9 @@ class Solution(object):
             self, remainds, availables, previous_combination):
 
         for index in xrange(len(availables)):
+            if availables[index] > remainds:
+                return
+
             current_combination = copy.deepcopy(previous_combination)
             current_combination.append(availables[index])
 
@@ -38,6 +41,6 @@ class Solution(object):
 
 if __name__ == "__main__":
     runner = Solution()
-    candidates = [1, 2]
-    target = 1
+    candidates = [1, 2, 100]
+    target = 50
     print(runner.combinationSum(candidates, target))
